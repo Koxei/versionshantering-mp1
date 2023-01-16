@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+}
+img {
+    height: auto;
+    width: 50%;
+}
+.templateContainer {
+    text-align: center;
+    margin: 3rem;
+}
+.title {
+    font-weight: bold;
+}
+.description {
+    font-style: italic;
+}
