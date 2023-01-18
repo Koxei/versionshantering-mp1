@@ -1,5 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(112, 112, 112);
+    font-size: 1.8rem;
 }
 img {
     height: auto;
