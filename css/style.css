@@ -13,14 +13,7 @@ body {
     background-color: rgb(112, 112, 112);
     font-size: 1.8rem;
 }
-img {
-    height: auto;
-    width: 50%;
-}
-.templateContainer {
-    text-align: center;
-    margin: 3rem;
-}
+
 .title {
     font-weight: bold;
 }
@@ -28,6 +21,35 @@ img {
     font-style: italic;
 }
 
+/* News card */
+.cloneContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.templateContainer {
+    display: inline-block;
+    margin: 0 0 5rem 0;
+
+}
+.descriptionsContainer {
+    text-align: center;
+    margin: 0 25%;
+    display: inline-;
+    border: 0;
+    gap: 0;
+}
+.author {
+    text-align: end;
+    margin: 0 25%;
+}
+.urlToImage {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin-bottom: -0.5rem;
+}
 
 /* Animation */
 .wrapper {

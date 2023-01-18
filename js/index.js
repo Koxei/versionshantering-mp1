@@ -46,7 +46,7 @@ const apiCall = () => {
             let url = clone.querySelector('.url');
     
             // Lägger till API objektens values till den nya containern
-            author.textContent = article.author;
+            author.textContent = "- " + article.author;
             urlToImg.src = article.urlToImage;
             title.textContent = article.title;
             description.textContent = article.description;
