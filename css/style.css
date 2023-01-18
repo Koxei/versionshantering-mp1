@@ -22,12 +22,15 @@ nav {
     display: flex;
     position: fixed;
     width: 100%;
+    top: 0;
+    height: 20rem;
 }
 .navIcon{
     height: auto;
-    width: 40%;
+    width: 20%;
 }
 ul {
+    background-color: #ff5757;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -35,6 +38,7 @@ ul {
     list-style: none;
     padding-bottom: 1.5rem;
     flex-wrap: wrap;
+
 }
 li {
     font-size: 5rem;
@@ -49,34 +53,42 @@ li {
 li:hover {
     transform: scale(1.15);
 }
-/* .countryDiv {
-    background-color: rgb(255, 255, 255);
-    align-self: flex-end;
-}
-.linkContainer {
-    background-color: red;
+
+
+/* annan content */
+.countryDiv {
+    margin-top: 20rem;
     text-align: end;
+    padding: 0 3rem;
 }
-ul {
-    margin: 0 0 1rem 15rem;
-    display: flex;
-    align-items: flex-end;
-    list-style: none;
+.country {
+    background-color: inherit;
+    border-width: 0 0 2px;
+    border-color: #ff5757;
+    margin-right: 1rem;
+    width: auto;
+    font-size: 2.2rem
 }
-li {
-    margin: 0 5rem;
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 5rem;
+form {
+    text-align: center;
+    margin: 5rem 0;
 }
-.headingAnchors {
-    text-decoration: none;
-    color: #e6e3e3;
-    font-family: 'Big Shoulders Display', cursive;
-    text-transform: uppercase;
-} */
-
-
-
+.srch {
+    background-color: inherit;
+    border-width: 0 0 2px;
+    border-color: #ff5757;
+    margin-right: 1rem;
+    width: auto;
+    font-size: 2.2rem
+}
+.btn {
+    border-radius: 2rem;
+    border: none;
+    background-color: #ff5757;
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.8rem;
+}
 /* News card */
 .cloneContainer {
     display: flex;
@@ -100,14 +112,14 @@ li {
     margin-bottom: -0.5rem;
 }
 .descriptionsContainer {
-    margin: 0 25%;
+    width: 50%;
     padding: 0 0 2rem 0;
     display: inline-block;
     background-color: #e0cfcf;
 }
 .title {
     text-transform: uppercase;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
     font-size: 4rem;
     font-weight: bold;
     font-family: 'Big Shoulders Display', cursive;
@@ -153,7 +165,6 @@ style.css
 }
 
 footer{
-    margin-top: auto;
     background: #ff5757;
     height: 10vh;
     width: 100vw;
@@ -176,4 +187,29 @@ footer{
     color: #fff;
 }
 
+/* Responsive */
 
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    html {
+        font-size: 40%;
+    }
+    li {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 28%;
+    }
+    li {
+        font-size: 2.5rem;
+    }
+
+}
