@@ -31,14 +31,6 @@ nav {
 }
 ul {
     background-color: #ff5757;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    list-style: none;
-    padding-bottom: 1.5rem;
-    flex-wrap: wrap;
-
 }
 li {
     font-size: 5rem;
@@ -50,7 +42,16 @@ li {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
 }
-li:hover {
+.navUl {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    list-style: none;
+    padding-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.navLi:hover {
     transform: scale(1.15);
 }
 

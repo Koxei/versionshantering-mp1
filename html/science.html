@@ -10,65 +10,97 @@
     <script src="../js/science.js" defer></script>
 </head>
 <body>
+    <!-- Nav -->
+
+
+    
+    
     <header>
         <nav class="navbar">
             <!-- icon -->
-            <a href="../index.html"><img src="../img/hotspot-logo.png" class="navIcon"></a>
+            <img src="../img/hotspot-logo.png" class="navIcon">
             <!-- language select -->
             <!-- topics -->
-            <ul>
-                <li>
+            <ul class="navUl">
+                <li class="navLi">
+                    <a href="../index.html" class="headingAnchors">Home</a>
+                </li>
+                <li class="navLi">
                     <a href="../html/business.html" class="headingAnchors">business</a>
                 </li>
-                <li>
+                <li class="navLi">
                     <a href="../html/entertainment.html" class="headingAnchors">entertainment</a>
                 </li>
-                <li>
+                <li class="navLi">
                     <a href="../html/science.html" class="headingAnchors">science</a>
                 </li>
-                <li>
+                <li class="navLi">
                     <a href="../html/sport.html" class="headingAnchors">sport</a>
                 </li>
-                <li>
+                <li class="navLi">
                     <a href="../html/technology.html" class="headingAnchors">technology</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <select name="country" class="country">
-        <option value="gb" selected>GB</option>
-        <option value="se">SE</option>
-        <option value="cz">CZ</option>
-        <option value="pl">PL</option>
-        <option value="de">DE</option>
-        <option value="ru">RU</option>
-        <option value="gr">GR</option>
-        <option value="ua">UA</option>
-    </select>
-    <div data-container class="cloneContainer"></div>
-    <template class="template">
-        <div class="templateContainer">
-            <div class="author"></div>
-            <img src="" class="urlToImage">
-            <div class="title"></div>
-            <div class="description"></div>
-            <div class="url"></div>
-        </div>
-    </template>
-    <footer>
-        <ul class="socials">
+            <main>
+                <div class="countryDiv">
+                    <select name="country" class="country">
+                        <option value="gb" selected>GB</option>
+                        <option value="se">SE</option>
+                        <option value="cz">CZ</option>
+                        <option value="pl">PL</option>
+                        <option value="de">DE</option>
+                        <option value="ru">RU</option>
+                        <option value="gr">GR</option>
+                        <option value="ua">UA</option>
+                    </select>
+                </div>
+                <!-- Heading -->
             
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-            <li><p>|</p></li>
-            <li><p>Copyright © 2022 HotSpot all rights reserved.</p></li>
+                <!-- Container för news -->
+                <div data-container class="cloneContainer"></div>
             
-        </ul>
-    
+                <!-- Template -->
+                <template class="template">
+                    <div class="templateContainer">
+                        <div class="author"></div>
+                        <img src="" class="urlToImage">
+                        <div class="descriptionsContainer">
+                            <div class="title"></div>
+                            <div class="description"></div>
+                            <div class="urlBlock"><a href="" target="_blank" class="url"></a></div>
+                    </div>
+                </template>
+            
+                <!-- Loading Animation -->
+                <div class="wrapper">
+                    <div class="spinner-wrapper">
+                        <div class="fading-circle"></div>
+                        <div class="fading-circle"></div>
+                        <div class="fading-circle"></div>
+                    </div>
+                </div>
+            
+            </main>
 
-</footer>
+        
+        <!-- Footer -->
+        <footer>
+                <ul class="socials">
+                    
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><p>|</p></li>
+                    <li><p>Copyright © 2022 HotSpot all rights reserved.</p></li>
+                    
+                </ul>
+            
+
+        </footer>
+
 </body>
 </html>

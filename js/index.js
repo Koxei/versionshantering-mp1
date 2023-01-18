@@ -4,6 +4,7 @@ const srch = document.querySelector('.srch');
 const btn = document.querySelector('.btn');
 const animation = document.querySelector('.spinner-wrapper');
 const form = document.querySelector('form');
+const country = document.querySelector('.country');
 
 // Tar bort child elements från .cloneContainer när ny sökning görs
 const removeChild = () => {
