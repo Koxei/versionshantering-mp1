@@ -1,6 +1,6 @@
 const container = document.querySelector('[data-container]');
-const template = document.querySelector('#template');
-const country = document.querySelector('#country');
+const template = document.querySelector('.template');
+const country = document.querySelector('.country');
 
 // Tar bort child elements från .cloneContainer när ny sökning görs
 const removeChild = () => {

@@ -1,5 +1,5 @@
 const container = document.querySelector('[data-container]');
-const template = document.querySelector('#template');
+const template = document.querySelector('.template');
 const srch = document.querySelector('.srch');
 const btn = document.querySelector('.btn');
 const animation = document.querySelector('.spinner-wrapper');
