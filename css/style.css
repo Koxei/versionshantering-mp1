@@ -1,19 +1,63 @@
-body {
-    background-color: rgb(112, 112, 112);
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Times New Roman', Times, serif;
 }
-img {
-    height: auto;
-    width: 50%;
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e3e3;
+    font-size: 1.8rem;
+}
+
+/* News card */
+.cloneContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
 }
 .templateContainer {
-    text-align: center;
-    margin: 3rem;
+    display: inline-block;
+    margin: 0 0 5rem 0;
+
+}
+.author {
+    text-align: end;
+    margin: 0 25%;
+}
+.urlToImage {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin-bottom: -0.5rem;
+}
+.descriptionsContainer {
+    margin: 0 25%;
+    padding: 0 0 2rem 0;
+    display: inline-block;
+    background-color: #e0cfcf;
 }
 .title {
+    text-transform: uppercase;
+    padding: 3rem 0;
+    font-size: 4rem;
     font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
 }
 .description {
-    font-style: italic;
+    text-align: start;
+    padding: 0 3rem 2rem 1.5rem;
+}
+.urlBlock {
+    text-align: start;
+    padding: 0 3rem 0 1.5rem;
 }
 
 
