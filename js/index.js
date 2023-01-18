@@ -51,6 +51,7 @@ const apiCall = () => {
             title.textContent = article.title;
             description.textContent = article.description;
             url.textContent = article.url;
+            url.href = article.url;
             
             // Sätter img till en placeholder.png ifall det inte hittar en bild från API objektet
             urlToImg.onerror = () => {urlToImg.src = '../img/placeholder.png'}

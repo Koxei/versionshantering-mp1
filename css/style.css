@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    font-family: 'Times New Roman', Times, serif;
 }
 html {
     font-size: 62.5%;
@@ -10,15 +12,8 @@ html {
 }
 
 body {
-    background-color: rgb(112, 112, 112);
+    background-color: #e6e3e3;
     font-size: 1.8rem;
-}
-
-.title {
-    font-weight: bold;
-}
-.description {
-    font-style: italic;
 }
 
 /* News card */
@@ -33,13 +28,6 @@ body {
     margin: 0 0 5rem 0;
 
 }
-.descriptionsContainer {
-    text-align: center;
-    margin: 0 25%;
-    display: inline-;
-    border: 0;
-    gap: 0;
-}
 .author {
     text-align: end;
     margin: 0 25%;
@@ -50,6 +38,28 @@ body {
     height: auto;
     margin-bottom: -0.5rem;
 }
+.descriptionsContainer {
+    margin: 0 25%;
+    padding: 0 0 2rem 0;
+    display: inline-block;
+    background-color: #e0cfcf;
+}
+.title {
+    text-transform: uppercase;
+    padding: 3rem 0;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.description {
+    text-align: start;
+    padding: 0 3rem 2rem 1.5rem;
+}
+.urlBlock {
+    text-align: start;
+    padding: 0 3rem 0 1.5rem;
+}
+
 
 /* Animation */
 .wrapper {
