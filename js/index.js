@@ -1,5 +1,5 @@
 const container = document.querySelector('[data-container]');
-const template = document.querySelector('#template');
+const template = document.querySelector('.template');
 const srch = document.querySelector('.srch');
 const btn = document.querySelector('.btn');
 const animation = document.querySelector('.spinner-wrapper');
@@ -46,11 +46,12 @@ const apiCall = () => {
             let url = clone.querySelector('.url');
     
             // Lägger till API objektens values till den nya containern
-            author.textContent = article.author;
+            author.textContent = "- " + article.author;
             urlToImg.src = article.urlToImage;
             title.textContent = article.title;
             description.textContent = article.description;
             url.textContent = article.url;
+            url.href = article.url;
             
             // Sätter img till en placeholder.png ifall det inte hittar en bild från API objektet
             urlToImg.onerror = () => {urlToImg.src = '../img/placeholder.png'}

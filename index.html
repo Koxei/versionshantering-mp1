@@ -14,22 +14,44 @@
 
 <body>
     <!-- Nav -->
+    <header>
+        <nav class="navbar">
+            <!-- icon -->
+            <a href="index.html"><img src="img/hotspot-logo.png" class="navIcon"></a>
+            <!-- language select -->
+            <!-- topics -->
+            <ul>
+                <li>
+                    <a href="html/business.html" class="headingAnchors">business</a>
+                </li>
+                <li>
+                    <a href="html/entertainment.html" class="headingAnchors">entertainment</a>
+                </li>
+                <li>
+                    <a href="html/science.html" class="headingAnchors">science</a>
+                </li>
+                <li>
+                    <a href="html/sport.html" class="headingAnchors">sport</a>
+                </li>
+                <li>
+                    <a href="html/technology.html" class="headingAnchors">technology</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="countryDiv">
+        <select name="country" class="country">
+            <option value="gb" selected>GB</option>
+            <option value="se">SE</option>
+            <option value="cz">CZ</option>
+            <option value="pl">PL</option>
+            <option value="de">DE</option>
+            <option value="ru">RU</option>
+            <option value="gr">GR</option>
+            <option value="ua">UA</option>
+        </select>
+    </div>
     <!-- Heading -->
-    <ul>
-        <li>
-            <a href="html/sport.html">Sport</a>
-        </li>
-    </ul>
-    <select name="country" id="country">
-        <option value="gb" selected>GB</option>
-        <option value="se">SE</option>
-        <option value="cz">CZ</option>
-        <option value="pl">PL</option>
-        <option value="de">DE</option>
-        <option value="ru">RU</option>
-        <option value="gr">GR</option>
-        <option value="ua">UA</option>
-    </select>
 
     <!-- Search box -->
     <form>
@@ -41,13 +63,14 @@
     <div data-container class="cloneContainer"></div>
 
     <!-- Template -->
-    <template id="template">
+    <template class="template">
         <div class="templateContainer">
             <div class="author"></div>
             <img src="" class="urlToImage">
-            <div class="title"></div>
-            <div class="description"></div>
-            <div class="url"></div>
+            <div class="descriptionsContainer">
+                <div class="title"></div>
+                <div class="description"></div>
+                <div class="urlBlock"><a href="" target="_blank" class="url"></a></div>
         </div>
     </template>
 

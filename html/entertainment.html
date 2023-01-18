@@ -10,7 +10,32 @@
     <script src="../js/entertainment.js" defer></script>
 </head>
 <body>
-    <select name="country" id="country">
+    <header>
+        <nav class="navbar">
+            <!-- icon -->
+            <a href="../index.html"><img src="../img/hotspot-logo.png" class="navIcon"></a>
+            <!-- language select -->
+            <!-- topics -->
+            <ul>
+                <li>
+                    <a href="../html/business.html" class="headingAnchors">business</a>
+                </li>
+                <li>
+                    <a href="../html/entertainment.html" class="headingAnchors">entertainment</a>
+                </li>
+                <li>
+                    <a href="../html/science.html" class="headingAnchors">science</a>
+                </li>
+                <li>
+                    <a href="../html/sport.html" class="headingAnchors">sport</a>
+                </li>
+                <li>
+                    <a href="../html/technology.html" class="headingAnchors">technology</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <select name="country" class="country">
         <option value="gb" selected>GB</option>
         <option value="se">SE</option>
         <option value="cz">CZ</option>
@@ -21,7 +46,7 @@
         <option value="ua">UA</option>
     </select>
     <div data-container class="cloneContainer"></div>
-    <template id="template">
+    <template class="template">
         <div class="templateContainer">
             <div class="author"></div>
             <img src="" class="urlToImage">
