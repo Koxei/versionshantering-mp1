@@ -6,6 +6,8 @@ Hot Spot is a news site that makes an API call to [newsapi.org](https://newsapi.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+:warning:Unfortunately the free service provided by newsapi.org has undergone changes, limiting API calls to a local context. As a result, the news feature will not be able to function on Github Pages.
+
 
 ### Installing
 
