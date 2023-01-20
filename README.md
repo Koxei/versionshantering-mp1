@@ -22,3 +22,9 @@ The site can be accessed on [https://koxei.github.io/versionshantering-mp1/](htt
 - The search bar under the navigation bar can be used to search for news by keywords.
 - The "Categories" sections in the navigation bar can be used to filter the news.
 - Language dropdown menu in the top right corner underneath navigation bar can be adjusted according to what countries news you would like to see
+
+## Mockup
+![Test Image 1](https://user-images.githubusercontent.com/109244116/213180469-12ceab39-f5b1-4392-bd20-a1fd263ddcc5.png)
+
+## Graphic Profile
+![Test Image 1](https://user-images.githubusercontent.com/109244116/213180549-cbe4a4ef-e8c7-4b6f-bcbd-126a30a1f09d.png)
