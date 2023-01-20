@@ -28,3 +28,7 @@ The site can be accessed on [https://koxei.github.io/versionshantering-mp1/](htt
 
 ## Graphic Profile
 ![Test Image 1](https://user-images.githubusercontent.com/109244116/213180549-cbe4a4ef-e8c7-4b6f-bcbd-126a30a1f09d.png)
+
+### Contributors
+@Koxei
+@Mauritz85
